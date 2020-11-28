@@ -1,0 +1,67 @@
+body{
+	font-family: 'Amiko';
+	background-color: #eeeeee;
+}
+
+#navbar-brand-mob{
+	display: none;
+	color: white;
+}
+
+#navbar-brand-desk{
+	display: visible;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar-brand-desk{
+  	display: none;
+  }
+  #navbar-brand-mob{
+	display: inline-block;
+  }
+}
+
+.navbar{
+	background-color: #F47637;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+#description{
+	background-color: #F47637;
+	color: #e0e0e0;
+}
+
+#blue-col{
+	background-color: #1D5A8E;
+}
+
+#orange-col{
+	background-color: #F47637;
+}
+
+#yellow-col{
+	background-color: #FFF855;
+}
+
+.quad-la{
+	background-color: #F47637;
+	margin: 10px;
+	padding: 10px;
+}
+
+.quad-az{
+	background-color: #1D5A8E;
+	margin: 10px;
+	padding: 10px;
+}
+
+.quad-am{
+	background-color: #FFF855;
+	margin: 10px;
+	padding: 10px;
+}
