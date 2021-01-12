@@ -1,24 +1,44 @@
 body{
 	font-family: 'Amiko';
-	background-color: #eeeeee;
+	background-color: #fafafa;
 }
 
 #navbar-brand-mob{
 	display: none;
 	color: white;
 }
+#what-is-mob{
+	display: none;
+}
+#no-hardware-issues-mob{
+	display: none;
+}
 
 #navbar-brand-desk{
 	display: visible;
 	color: white;
+}
+#what-is-desk{
+	display: visible;
 }
 
 @media only screen and (max-width: 600px) {
   #navbar-brand-desk{
   	display: none;
   }
+  #what-is-desk{
+  	display: none;
+  }
+
+
   #navbar-brand-mob{
 	display: inline-block;
+  }
+  #what-is-mob{
+  	display: inline-block;
+  }
+  #no-hardware-issues-mob{
+  	display: inline-block;
   }
 }
 
@@ -31,21 +51,35 @@ a{
 	text-decoration: none;
 }
 
-#description{
-	background-color: #F47637;
-	color: #e0e0e0;
-}
-
-#blue-col{
+.blue-col{
 	background-color: #1D5A8E;
 }
 
-#orange-col{
+.orange-col{
 	background-color: #F47637;
 }
 
-#yellow-col{
+.yellow-col{
 	background-color: #FFF855;
+}
+
+#description{
+	/*background-color: #F47637;*/
+	background-color: #fff9c4;
+	color: #fafafa;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#no_hardware_issues{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#for-who{
+	color: #1D5A8E;
+	/*background-color: #fff3e0;*/
+	background-color: #e3f2fd;
 }
 
 .quad-la{
