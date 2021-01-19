@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -12,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
 </head>
-<body>
+<body onload="toModal()">
 
   <nav class="navbar bg-primary navbar-dark fixed-top">
     <a class="navbar-brand" href="#navbar-brand-desk">
@@ -59,6 +60,35 @@
 
   <div id="start" class="jumbotron jumbotron-fluid p-0" style="margin-top:66px;">
     <img class="img-responsive" src="img/facebookYEPCover.png" alt="Capa do YEP"  width=100% > 
+  </div>
+
+  <!-- -->
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #fafafa">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 style="color: #1D5A8E"><b> Olá ser humano!</b></h4>
+          <!--<button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>O kit de desenvolvimento YEP está em fase de criação.</p>
+          <p>Com isso, convido você a acompanhar nosso <b>pré lançamento</b> pelas redes sociais.</p>
+          <p>É só ir lá em "Contato" e seguir a gente nas plataformas &#129299; </p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #FFF855; color: black;">Conhecer o YEP</button>
+        </div>
+        
+      </div>
+    </div>
   </div>
 
   <!-- -->

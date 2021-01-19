@@ -3,6 +3,10 @@ body{
 	background-color: #fafafa;
 }
 
+.modal-backdrop.show{
+	background-color: #fff59d;
+}
+
 #navbar-brand-mob{
 	display: none;
 	color: white;
